@@ -1,4 +1,4 @@
-let pin="1134"
+let pin=prompt("Ingrese clave")
 if(pin==1234){
     console.log("clave correcta");
 }
