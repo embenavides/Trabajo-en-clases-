@@ -1,6 +1,9 @@
 let user= prompt("inrese el usuario")
-let password= prompt("ingrese contraseña")
-if (user=="admin"&&password=="secr3t"){
+let password= prompt("Ingrese Contraseña")
+const User_Name="Admin"
+const User_Password="secr3t"
+ 
+if (user==user&&password==User_Password){
     console.log("Bienvenido")
 }
 else{

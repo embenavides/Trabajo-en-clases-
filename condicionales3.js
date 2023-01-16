@@ -1,5 +1,7 @@
 let age=prompt("Ingrese su edad para verificar la vacuna")
-if(age>=65||age<=6){
+const User_Age1="65"
+const User_Age2= "6"
+if(age>=User_Age1||age<=User_Age2){
     console.log("Es apto para vacuna")
 
 }

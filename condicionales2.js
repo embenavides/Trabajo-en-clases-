@@ -1,5 +1,8 @@
  let age=prompt("Ingrese su edad para ver si es apto para el trabajo")
-if(age>=18&&age<=35){
+ const User_Age1="18"
+ const User_Age2= "35"
+
+if(age>=User_Age1&&age<=User_Age2){
     console.log("Es apto para empleo")
 
 }

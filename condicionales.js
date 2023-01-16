@@ -1,5 +1,6 @@
 let pin=prompt("Ingrese clave")
-if(pin==1234){
+const Password_ult="1234"
+if(pin==Password_ult){
     console.log("clave correcta");
 }
 else{
